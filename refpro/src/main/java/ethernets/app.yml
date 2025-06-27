@@ -1,0 +1,3 @@
+ethernet.server.ip=192.168.1.100 # Replace with your device's IP
+ethernet.server.port=12345        # Replace with your device's port
+ethernet.reconnect.delay.seconds=10 # Delay before retrying connection
