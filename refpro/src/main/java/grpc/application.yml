@@ -1,0 +1,5 @@
+# application.properties
+grpc.server.host=localhost
+grpc.server.port=50051
+grpc.reconnect.initial-delay-ms=1000
+grpc.reconnect.max-delay-ms=60000
