@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option java_multiple_files = true;
+option java_package = "com.yourcompany.myapp.grpc";
+option java_outer_classname = "MyServiceProto";
+
+service MyService {
+  rpc MyMethod (MyRequest) returns (MyResponse);
+}
+
+message MyRequest {
+  string name = 1;
+}
+
+message MyResponse {
+  string message = 1;
+}
