@@ -1,0 +1,5 @@
+commands:
+  LEFT: GOTO_POS
+  RIGHT: GOTO_POS
+  ZOOM_IN: RESET
+  ZOOM_OUT: STOP
